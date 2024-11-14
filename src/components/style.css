@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.minimal-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.minimal-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.minimal-button:active {
+  background-color: #0056b3;
+  color: white;
+  border-color: #0056b3;
+}
